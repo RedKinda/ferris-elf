@@ -81,7 +81,7 @@ async def run_image(msg: discord.Message, input: str) -> Optional[str]:
                 stdout=True,
                 mem_limit="120g",
                 network_mode="none",
-                cpuset_cpus="0-7,16-23",
+                cpuset_cpus="0-7,12-19",
             ),
         )
         out = out.decode("utf-8")
