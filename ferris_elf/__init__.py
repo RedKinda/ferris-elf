@@ -572,7 +572,6 @@ mimalloc = { version = "0.1", default-features = false }
 ndarray = "0.16"
 nom = "7"
 nom_locate = "4.2"
-num = "0.4"
 num-traits = "0.2"
 parse-display = "0.10"
 paste = "1.0.15"
