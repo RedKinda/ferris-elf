@@ -49,14 +49,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "atoi_radix10"
-version = "0.0.1"
-source = "git+https://github.com/gilescope/atoi_radix10#8af3ae2b5e8a5774e95dbb4c692c848ecdaeb1af"
-dependencies = [
- "getrandom 0.3.4",
-]
-
-[[package]]
 name = "atoi_simd"
 version = "0.16.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -275,7 +267,6 @@ dependencies = [
  "ahash",
  "arrayvec",
  "atoi",
- "atoi_radix10",
  "atoi_simd",
  "bit-set",
  "bitvec",
@@ -373,11 +364,9 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "899def5c37c4fd7b2664648c28120ecec138e4d395b459e5ca34f9cce2dd77fd"
 dependencies = [
  "cfg-if",
- "js-sys",
  "libc",
  "r-efi",
  "wasip2",
- "wasm-bindgen",
 ]
 
 [[package]]

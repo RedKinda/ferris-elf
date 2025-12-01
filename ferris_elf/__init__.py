@@ -553,7 +553,6 @@ Rust version is latest Docker nightly
 ahash = "0.8"
 arrayvec = "0.7"
 atoi = "2"
-atoi_radix10 = { git = "https://github.com/gilescope/atoi_radix10" }
 atoi_simd = "0.16"
 bitvec = "1"
 bit-set = "0.8"
